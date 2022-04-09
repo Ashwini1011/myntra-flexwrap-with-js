@@ -86,20 +86,21 @@ small.off{
 }
 
 /* Media Query */
-@media (min-width:360px) and (max-width:1024px) {
+@media (min-width:359px) and (max-width:1023px) {
 .container
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0;
+  gap:0;
 }
 
 .card
 {
   display: flex;
   flex-direction: column;
-  width:185px;
+   width:170px;
   height:330px;
   margin-bottom: 16px;
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(246, 245, 245);
@@ -108,7 +109,7 @@ small.off{
 
 .product-image
 {
-  width:185px;
+  width:170px;
   height:275px;
   overflow: hidden;
   align-content: stretch;
@@ -116,3 +117,4 @@ small.off{
   margin-bottom: 10px;
 }
 }
+
